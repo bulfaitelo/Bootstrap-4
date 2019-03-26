@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Popover</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        .row {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body >
+    <div class="container">
+        <div class="row">
+            <div class="col-12 m-2">
+                <button type="button" class="btn btn-lg btn-danger" data-toggle="popover" 
+                title="Titulo Popover" data-content="lorem ipsum dolor sit amet" >
+                    Clique nesse bagaça
+                </button>
+            </div>
+        </div>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis dolor illo veritatis debitis quidem suscipit voluptate, aliquam magni itaque beatae, voluptatem iusto praesentium distinctio ipsam nam corporis fuga ut quam.</p>
+        <div class="row">
+            <div class="col-12">
+                <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" 
+                data-placement="top" title="Titulo Popover" data-content="lorem ipsum dolor sit amet">
+                    Popover-top
+                </button>
+            </div>
+            <div class="col-12">
+                <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" 
+                data-placement="right" title="Titulo Popover" data-content="lorem ipsum dolor sit amet">
+                    Popover-right
+                </button>
+            </div>
+            <div class="col-12">
+                <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" 
+                data-placement="bottom" title="Titulo Popover" data-content="lorem ipsum dolor sit amet">
+                    Popover-bottom
+                </button>
+            </div>
+        </div>
+                
+    </div>
+
+
+    <script src="js/jquery-3.2.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+        $(function(){
+            $('[data-toggle="popover"]').popover()
+        });
+    </script>
+
+</body>
+</html>
