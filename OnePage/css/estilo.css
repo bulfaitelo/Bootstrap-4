@@ -30,6 +30,11 @@
 
 /* Seção parceiros */
 
+.bg-parallax {
+    background: url(../img/bg.jpg) fixed;
+    position: relative;
+}
+
 .bg-parceiros {
     background-color: #f2f0f7;
 }
