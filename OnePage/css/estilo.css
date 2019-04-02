@@ -38,3 +38,18 @@
     margin-bottom: 8px;
     margin: 0 auto;
 }
+
+/* Seção parceiros */
+
+.bg-parceiros {
+    background-color: #f2f0f7;
+}
+
+.padding-parceiros {
+    padding: 2px !important;
+}
+
+
+.sombra:hover {
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.1);
+}
