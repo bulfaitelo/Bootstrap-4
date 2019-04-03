@@ -75,7 +75,62 @@
     letter-spacing: 1px;
 }
 
+/* Configurações seção de preços */
+.tabela-preco {
+    padding: 0 0 40px 0;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #f1f1f1;
+}
 
+.tabela-preco .preco-detalhe  h2{
+    font-size: 26px;
+    font-weight: 700;
+    color: #333;
+    text-transform: uppercase;
+    background-color: #f1f1f1;
+    padding: 30px 0;
+}
+
+.tabela-preco .preco-detalhe span {
+    display: block;
+    font-size: 48px;
+    font-weight: 400;
+    color: #4c465f;
+}
+
+.tabela-preco .preco-detalhe ul {
+    margin-bottom: 35px;
+    padding: 0 !important;
+
+}
+
+.tabela-preco .preco-detalhe ul li {
+    padding: 10px;
+    font-size: 15px;
+    border-bottom: 1px dotted #f1f1f1;
+    list-style: none;
+}
+
+.btn-preco {
+    border: 1px solid #ff3859;
+    background-color: #ff3859;
+    position: relative;
+    color: #fff;
+    z-index: 1;
+    border-radius: 30px;
+}
+
+.btn-preco:hover {
+    color: #fff;
+    background-color: #4c465f;
+    border-color: #4c465f;
+    transform: all .50s ease-in-out;
+    -moz-transform: all .50s ease-in-out;
+    -webkit-transform: all .50s ease-in-out;
+}
 /* Comfigurações Gerais */
 
 .underline {
