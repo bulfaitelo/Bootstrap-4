@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Toasts</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <button id="btnToast"  class="btn btn-primary">
+            AbriToast
+        </button>
+    </div>
+    <div class="" style="position: relative; min-height:200px; ">
+        <div class="" style="position:absolute; top:0 ;right:0;">
+            <div class="toast" role="alert" data-delay="3000" >
+                <div class="toast-header">
+                    <img src="../Aulas/img/img2.jpg" alt="" class="rounded mr-2">
+                    <strong class="mr-auto">PontoCom DEv</strong>
+                    <small class="text-muted"> 15 minutos</small>
+                    <button type="button" class="btn ml-2 mb-1 colse" data-dismiss="toast" aria-label="Fechar">
+                        <span aria-hidden="true"><b>&times;</b></span>
+                    </button>
+                </div>
+                <div class="toast-body">
+                    Olá seja bem vindo a essa parada
+                </div>
+            </div>
+            <div class="toast" role="alert" data-autohide="false" >
+                    <div class="toast-header">
+                        <img src="../Aulas/img/img2.jpg" alt="" class="rounded mr-2">
+                        <strong class="mr-auto">PontoCom DEv</strong>
+                        <small class="text-muted"> 15 minutos</small>
+                        <button type="button" class="btn ml-2 mb-1 colse" data-dismiss="toast" aria-label="Fechar">
+                            <span aria-hidden="true"><b>&times;</b></span>
+                        </button>
+                    </div>
+                    <div class="toast-body">
+                        Olá seja bem vindo a essa parada
+                    </div>
+                </div>
+        
+        </div>
+        <div class="toast" role="alert" data-autohide="false">
+            <div class="toast-header">
+                <img src="../Aulas/img/img2.jpg" alt="" class="rounded mr-2">
+                <strong class="mr-auto">PontoCom DEv</strong>
+                <small class="text-muted"> 15 minutos</small>
+                <button type="button" class="btn ml-2 mb-1 colse" data-dismiss="toast" aria-label="Fechar">
+                    <span aria-hidden="true"><b>&times;</b></span>
+                </button>
+            </div>
+            <div class="toast-body">
+                Olá seja bem vindo a essa parada
+            </div>
+        </div>
+        <div class="toast" role="alert" data-autohide="false">
+            <div class="toast-header">
+                <img src="../Aulas/img/img2.jpg" alt="" class="rounded mr-2">
+                <strong class="mr-auto">PontoCom DEv</strong>
+                <small class="text-muted"> 15 minutos</small>
+                <button type="button" class="btn ml-2 mb-1 colse" data-dismiss="toast" aria-label="Fechar">
+                    <span aria-hidden="true"><b>&times;</b></span>
+                </button>
+            </div>
+            <div class="toast-body">
+                Olá seja bem vindo a essa parada
+            </div>
+        </div>
+            
+
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready (function(){
+            $('#btnToast').click(function(){
+                $('.toast').toast('show');
+            })
+        });
+    </script>
+</body>
+</html>
