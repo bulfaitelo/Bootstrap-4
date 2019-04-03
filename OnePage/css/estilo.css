@@ -32,7 +32,7 @@
 
 .bg-parallax {
     background: url(../img/bg.jpg) fixed;
-    position: relative;
+    /* position: relative; */
 }
 
 .bg-parceiros {
